@@ -1,0 +1,28 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with subtle gradient -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF1A1A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#CC0000;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="docGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F5F5F5;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded square background -->
+  <rect x="4" y="4" width="120" height="120" rx="28" fill="url(#bgGrad)"/>
+
+  <!-- Document/clipboard shape (back) -->
+  <rect x="50" y="28" width="48" height="60" rx="6" fill="rgba(255,255,255,0.3)"/>
+
+  <!-- Document/clipboard shape (front) -->
+  <rect x="30" y="40" width="48" height="60" rx="6" fill="url(#docGrad)"/>
+
+  <!-- Text lines on document -->
+  <rect x="40" y="54" width="28" height="4" rx="2" fill="#FF0033"/>
+  <rect x="40" y="64" width="24" height="4" rx="2" fill="#CCCCCC"/>
+  <rect x="40" y="74" width="28" height="4" rx="2" fill="#CCCCCC"/>
+  <rect x="40" y="84" width="20" height="4" rx="2" fill="#CCCCCC"/>
+</svg>
